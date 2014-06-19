@@ -96,6 +96,7 @@
 	color: #7c8082;
 	font-size: 11px;
 	text-transform: uppercase;
+	padding-right: 15px;
 }
 
 .topbar ul.loginbar li i.fa { 
