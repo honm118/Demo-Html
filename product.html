@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>JAQUA | Welcome...</title>
+    <title>Unify | Welcome...</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -12,7 +12,7 @@
     <meta name="author" content="">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -21,8 +21,7 @@
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">     
-    <link rel="stylesheet" href="assets/plugins/layer_slider/css/layerslider.css">
+    <link rel="stylesheet" href="assets/plugins/fancybox/source/jquery.fancybox.css">     
 
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
@@ -31,11 +30,9 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head> 
 
-<body class="boxed-layout container">
-<!--=== Style Switcher ===-->
-<!--    
+<body>
+<!--=== Style Switcher ===-->    
 <i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
--->
 <div class="style-switcher animated fadeInRight">
     <div class="theme-close"><i class="icon-close"></i></div>
     <div class="theme-heading">Theme Colors</div>
@@ -326,7 +323,7 @@
                         <!-- End Pages -->
 
                         <!-- Features -->
-                        <li class="dropdown">
+                        <li class="dropdown open">
                             <a href="product_category.html" class="dropdown-toggle">
                                 產品分類
                             </a>
@@ -432,389 +429,228 @@
         </div>            
         <!-- End Navbar -->
     </div>
-    <!--=== End Header ===-->    
+    <!--=== End Header ===-->   
 
-    <!--=== Slider ===-->
-    <div class="layer_slider">
-        <div id="layerslider-container-fw">        
-            <div id="layerslider" style="width: 100%; height: 500px; margin: 0px auto; ">
-                <!--First Slide-->
-                <div class="ls-layer" style="slidedirection: right; transition2d: 24,25,27,28; ">
-
-                    <img src="assets/img/sliders/layer/bg1.jpg" class="ls-bg" alt="Slide background">
-
-                    <img src="assets/img/mockup/iphone1.png" alt="Slider Image" class="ls-s-1" style=" top:110px; left: 140px; slidedirection : left; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
-
-                    <img src="assets/img/mockup/iphone.png" alt="Slider image" class="ls-s-1" style=" top:60px; left: 0; slidedirection : left; slideoutdirection : bottom; durationin : 2500; durationout : 2500; ">
-
-                    <span class="ls-s-1" style=" line-height: 45px; font-size:35px; color:#fff; top:200px; left: 550px; slidedirection : top; slideoutdirection : bototm; durationin : 3500; durationout : 3500; background: rgba(0, 0, 0, 0.7);">
-                        Text Line1 Example <br>
-						Text Line2 Example
-                    </span>
-
-                    <!--<a class="btn-u btn-u-orange ls-s1" href="javascript:void(0);" style=" padding: 9px 20px; font-size:25px; top:340px; left: 500px; slidedirection : bottom; slideoutdirection : top; durationin : 3500; durationout : 3500; ">
-                        Download Now
-                    </a>-->
-                </div>
-                <!--End First Slide-->
-
-                <!--Second Slide-->
-                <div class="ls-layer" style="slidedirection: top; ">
-                    <img src="assets/img/bg/5.jpg" class="ls-bg" alt="Slide background">
-
-					
-					<!--
-                    <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #3E3A39; font-size: 24px; top:70px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 1500; durationout : 500; "></i> 
-
-                    <span class="ls-s-2" style=" color: #3E3A39; font-weight: 200; font-size: 22px; top:70px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; ">
-                        Fully Responsive and Easy to Customize
-                    </span>
-
-                    <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #3E3A39; font-size: 24px; top:120px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 2500; durationout : 1500; "></i> 
-
-                    <span class="ls-s-2" style=" color: #3E3A39; font-weight: 200; font-size: 22px; top:120px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 2500; durationout : 1500; ">
-                        Revolution and Layer Slider Included 
-                    </span>
-
-                    <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #3E3A39; font-size: 24px; top:170px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 3500; durationout : 3500; "></i> 
-
-                    <span class="ls-s-2" style=" color: #3E3A39; font-weight: 200; font-size: 22px; top:170px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 3500; durationout : 2500; ">
-                        1000+ Glyphicons Pro and Font Awesome Icons 
-                    </span>
-
-                    <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #3E3A39; font-size: 24px; top:220px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 4500; durationout : 3500; "></i> 
-
-                    <span class="ls-s-2" style=" color: #3E3A39; font-weight: 200; font-size: 22px; top:220px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 4500; durationout : 3500; ">
-                        Revolution and Layer Slider Included 
-                    </span>
-
-                    <i class="fa fa-chevron-circle-right ls-s-1" style=" color: #3E3A39; font-size: 24px; top:270px; left: 40px; slidedirection : left; slideoutdirection : top; durationin : 5500; durationout : 4500; "></i> 
-
-                    <span class="ls-s-2" style=" color: #3E3A39; font-weight: 200; font-size: 22px; top:270px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 5500; durationout : 4500; ">
-                        60+ Template Pages and 20+ Plugins Included
-                    </span>
-					
-					-->
-					
-                    <span class="ls-s-2" style=" color: #fff; font-weight: 200; font-size: 35px; top:70px; left: 70px; slidedirection : top; slideoutdirection : bottom; durationin : 1500; durationout : 500; background: rgba(0, 0, 0, 0.7);">
-                        Text Example
-                    </span>
-					
-                    <a class="btn-u btn-u-blue ls-s1" href="javascript:void(0);" style=" padding: 9px 20px; font-size:25px; top:340px; left: 40px; slidedirection : bottom; slideoutdirection : bottom; durationin : 6500; durationout : 3500; ">
-                        查看更多
-                    </a>
-
-                    <img src="assets/img/mockup/iphone1.png" alt="Slider Image" class="ls-s-1" style=" top:60px; left: 550px; slidedirection : right; slideoutdirection : bottom; durationin : 1500; durationout : 1500; ">
-                </div>
-                <!--End Second Slide-->
-
-                <!--Third Slide-->
-                <div class="ls-layer" style="slidedirection: right; transition2d: 92,93,105; ">
-                    <img src="assets/img/sliders/layer/bg2.jpg" class="ls-bg" alt="Slide background">
-
-                    <span class="ls-s-1" style=" color: #fff; line-height:45px; font-weight: 200; font-size: 35px; top:100px; left: 50px; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; background: rgba(0, 0, 0, 0.7);">
-                        Text Example
-                    </span>
-
-                    <a class="btn-u btn-u-green ls-s-1" href="javascript:void(0);" style=" padding: 9px 20px; font-size:25px; top:220px; left: 50px; slidedirection : bottom; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
-                        查看更多
-                    </a>
-
-                    <img src="assets/img/mockup/iphone.png" alt="Slider Image" class="ls-s-1" style=" top:30px; left: 600px; slidedirection : right; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">
-                </div>
-                <!--End Third Slide-->
-            </div>         
-        </div>
-    </div><!--/layer_slider-->
-    <!--=== End Slider ===-->
-
-    <!--=== Purchase Block ===-->
-    <div style="display:none" class="purchase">
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
         <div class="container">
-            <div class="row">
-                <div class="col-md-9 animated fadeInLeft">
-                    <span>Unify is a clean and fully responsive incredible Template.</span>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat corrupti quos.</p>
-                </div>            
-                <div class="col-md-3 btn-buy animated fadeInRight">
-                    <a href="javascript:void(0);" class="btn-u btn-u-lg"><i class="fa fa-cloud-download"></i> Download Now</a>
-                </div>
-            </div>
+            <h1 class="pull-left">Thumbnails</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">產品分類</a></li>
+                <li class="active">品牌A</li>
+            </ul>
         </div>
-    </div><!--/row-->
-    <!-- End Purchase Block -->
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
 
     <!--=== Content Part ===-->
-    <div style="display:none" class="container content"> 
-        <!-- Service Blocks -->
-        <div class="row margin-bottom-30">
-            <div class="col-md-4 service-alternative">
-                <div class="service">
-                    <i class="fa fa-compress service-icon"></i>
-                    <div class="desc">
-                        <h4>Fully Responsive</h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-md-4 service-alternative">
-                <div class="service">
-                    <i class="fa fa-cogs service-icon"></i>
-                    <div class="desc">
-                        <h4>HTML5 + CSS3</h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-md-4 service-alternative">
-                <div class="service">
-                    <i class="fa fa-rocket service-icon"></i>
-                    <div class="desc">
-                        <h4>Launch Ready</h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
-                    </div>
-                </div>  
-            </div>              
-        </div>
-        <!-- End Service Blokcs -->
+    <div class="container content">
+        <div class="row">
+            <!-- Begin Sidebar Menu -->
+            <div class="col-md-3">
+                <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
 
-        <!-- Recent Works -->
-        <div class="headline"><h2>Recent Works</h2></div>
-        <div class="row margin-bottom-20">
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                    <div class="thumbnail-img">
-                        <div class="overflow-hidden">
-                            <img class="img-responsive" src="assets/img/main/2.jpg" alt="" />
-                        </div>
-                        <a class="btn-more hover-effect" href="javascript:void(0);">read more +</a>                   
-                    </div>
-                    <div class="caption">
-                        <h3><a class="hover-effect" href="javascript:void(0);">Project One</a></h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                    <div class="thumbnail-img">
-                        <div class="overflow-hidden">
-                            <img class="img-responsive" src="assets/img/main/3.jpg" alt="" />
-                        </div>
-                        <a class="btn-more hover-effect" href="javascript:void(0);">read more +</a>                   
-                    </div>
-                    <div class="caption">
-                        <h3><a class="hover-effect" href="javascript:void(0);">Project Two</a></h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                    <div class="thumbnail-img">
-                        <div class="overflow-hidden">
-                            <img class="img-responsive" src="assets/img/main/9.jpg" alt="" />
-                        </div>
-                        <a class="btn-more hover-effect" href="javascript:void(0);">read more +</a>                   
-                    </div>
-                    <div class="caption">
-                        <h3><a class="hover-effect" href="javascript:void(0);">Project Three</a></h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnails thumbnail-style thumbnail-kenburn">
-                    <div class="thumbnail-img">
-                        <div class="overflow-hidden">
-                            <img class="img-responsive" src="assets/img/main/10.jpg" alt="" />
-                        </div>
-                        <a class="btn-more hover-effect" href="javascript:void(0);">read more +</a>                   
-                    </div>
-                    <div class="caption">
-                        <h3><a class="hover-effect" href="javascript:void(0);">Project Four</a></h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Recent Works -->
+                    <li class="list-group-item list-toggle">                   
+                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-A">品牌</a>
+                        <ul id="collapse-A" class="collapse">
+							<li>
+                                <span class="badge badge-u">New</span>                            
+                                <a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌A</a></li>
+                            </li>
+							<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌B</a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌C</a></li>
+                        </ul>
+                    </li>
 
-        <!-- Info Blokcs -->
-        <div class="row margin-bottom-30">
-            <!-- Welcome Block -->
-            <div class="col-md-8 md-margin-bottom-40">
-                <div class="headline"><h2>Welcome To Unify</h2></div>
+                    <li class="list-group-item list-toggle">                   
+                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-B">系列</a>
+                        <ul id="collapse-B" class="collapse sidebar-nav-v2">
+							<li>
+                                <span class="badge badge-u">New</span>
+								<a href="javascript:void(0);">5000系列</a>							
+                            </li>
+							<li class="list-group-item list-toggle">
+								<a data-toggle="collapse" data-parent="#collapse-B" href="#collapse-BA">6000系列</a>								
+								<ul id="collapse-BA" class="collapse">
+									<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 6001系列</a></li>
+									<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 6002系列</a></li>
+									<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 6003系列</a></li>
+								</ul>	
+							</li>
+							<li><a href="javascript:void(0);">7000系列</a></li>
+                        </ul>
+                    </li>
+					
+					<li class="list-group-item list-toggle">                   
+                        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-C">功能</a>
+                        <ul id="collapse-C" class="collapse">
+							<li>
+                                <span class="badge badge-u">New</span>                            
+                                <a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌A</a></li>
+                            </li>
+							<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌B</a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-chevron-circle-right"></i> 品牌C</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Sidebar Menu -->
+
+            <!-- Begin Content -->
+            <div class="col-md-9">
+                <!-- Thumbnails v1 -->
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img class="img-responsive margin-bottom-20" src="assets/img/main/6.jpg" alt="" />
-                    </div>
-                    <div class="col-sm-8">
-                        <p>Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals. It works on all major web browsers, tablets and phone.</p>
-                        <ul class="list-unstyled margin-bottom-20">
-                            <li><i class="fa fa-check color-green"></i> Donec id elit non mi porta gravida</li>
-                            <li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
-                            <li><i class="fa fa-check color-green"></i> Responsive Bootstrap Template</li>
-                            <li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
-                        </ul>                    
-                    </div>
-                </div>
-
-                <blockquote class="hero-unify">
-                    <p>Award winning digital agency. We bring a personal and effective approach to every project we work on, which is why. Unify is an incredibly beautiful responsive Bootstrap Template for corporate professionals.</p>
-                    <small>CEO, Jack Bour</small>
-                </blockquote>
-            </div><!--/col-md-8-->        
-
-            <!-- Latest Shots -->
-            <div class="col-md-4">
-                <div class="headline"><h2>Latest Shots</h2></div>
-                <div id="myCarousel" class="carousel slide carousel-v1">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="assets/img/main/5.jpg" alt="">
-                            <div class="carousel-caption">
-                                <p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/2.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
                             </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/main/4.jpg" alt="">
-                            <div class="carousel-caption">
-                                <p>Cras justo odio, dapibus ac facilisis into egestas.</p>
-                            </div>
-                            </div>
-                        <div class="item">
-                            <img src="assets/img/main/3.jpg" alt="">
-                            <div class="carousel-caption">
-                                <p>Justo cras odio apibus ac afilisis lingestas de.</p>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project One</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="carousel-arrow">
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <i class="fa fa-angle-left"></i>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/3.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Two</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/9.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Three</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/row-->
+				
+				<div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/2.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project One</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/3.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Two</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/9.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Three</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div><!--/col-md-4-->
-        </div>  
-        <!-- End Info Blokcs -->
+				
+				<div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/2.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project One</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/3.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Two</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="assets/img/main/9.jpg" alt="" />
+                                </div>
+                                <a class="btn-more hover-effect" href="#">read more +</a>                   
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">Project Three</a></h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Content -->
+        </div>   
 
-        <!-- Our Clients -->
-        <div id="clients-flexslider" class="flexslider home clients">
-            <div class="headline"><h2>Our Clients</h2></div>    
-            <ul class="slides">
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/hp_grey.png" alt="" /> 
-                        <img src="assets/img/clients/hp.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/igneus_grey.png" alt="" /> 
-                        <img src="assets/img/clients/igneus.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/vadafone_grey.png" alt="" /> 
-                        <img src="assets/img/clients/vadafone.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/walmart_grey.png" alt="" /> 
-                        <img src="assets/img/clients/walmart.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/shell_grey.png" alt="" /> 
-                        <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/natural_grey.png" alt="" /> 
-                        <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/aztec_grey.png" alt="" /> 
-                        <img src="assets/img/clients/aztec.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
-                        <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/cisco_grey.png" alt="" /> 
-                        <img src="assets/img/clients/cisco.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/everyday_grey.png" alt="" /> 
-                        <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/cocacola_grey.png" alt="" /> 
-                        <img src="assets/img/clients/cocacola.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
-                        <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/shell_grey.png" alt="" /> 
-                        <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/natural_grey.png" alt="" /> 
-                        <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/gamescast_grey.png" alt="" /> 
-                        <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/everyday_grey.png" alt="" /> 
-                        <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void(0);">
-                        <img src="assets/img/clients/spinworkx_grey.png" alt="" /> 
-                        <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                    </a>
-                </li>
-            </ul>
-        </div><!--/flexslider-->
-        <!-- End Our Clients -->
+            <div class="text-right">
+                <ul class="pagination">
+                    <li><a href="#">Prev</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li class="active"><a>3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </div>		
     </div><!--/container-->     
-    <!-- End Content Part -->
+    <!--=== End Content Part ===-->
 
     <!--=== Footer ===-->
     <div class="footer">
@@ -881,6 +717,8 @@
             </div>
         </div> 
     </div>
+	<!--/footer-->
+    <!--=== End Footer ===-->
 
     <!--=== Copyright ===-->
     <div class="copyright">
@@ -899,45 +737,29 @@
                 </div>
             </div>
         </div> 
-    </div><!--/copyright--> 
+    </div>
+	<!--/copyright--> 
     <!--=== End Copyright ===-->
-</div><!--/wrapper-->
+</div><!--/End Wrapepr-->
 
 <!-- JS Global Compulsory -->           
 <script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
 <!-- JS Implementing Plugins -->
 <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-<!-- Layer Slider -->
-<script type="text/javascript" src="assets/plugins/layer_slider/jQuery/jquery-easing-1.3.js"></script>
-<script type="text/javascript" src="assets/plugins/layer_slider/jQuery/jquery-transit-modified.js"></script>
-<script type="text/javascript" src="assets/plugins/layer_slider/js/layerslider.transitions.js"></script>
-<script type="text/javascript" src="assets/plugins/layer_slider/js/layerslider.kreaturamedia.jquery.js"></script>
-<!-- End Layer Slider -->
+<script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/pages/index.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
-        App.initSliders();
-        Index.initLayerSlider();
+        App.initFancybox();        
     });
 </script>
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
 <![endif]-->
 
-<!-- For Background Image -->
-<script type="text/javascript" src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-    $.backstretch([
-      "assets/img/bg/13.jpg"
-      ])
-</script>
-<!-- End For Background Image -->
-
 </body>
-</html> 
+</html>

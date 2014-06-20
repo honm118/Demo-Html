@@ -540,8 +540,8 @@ h3.heading-xs {
   padding: 6px 30px 6px 17px; 
 }
 
-.sidebar-nav-v1 ul li:hover a,
-.sidebar-nav-v1 ul li.active a {
+.sidebar-nav-v1 ul li a:hover,
+.sidebar-nav-v1 ul li a.active {
   color: #72c02c;
 }
 
@@ -598,6 +598,13 @@ h3.heading-xs {
 .sidebar-nav-v1 li [class*=" fa"].fa-lg {
   /* increased font size for fa-lg */
   width: 1.5625em;
+}
+
+.sidebar-nav-v2 li ul a {
+  color: #585f69;
+  font-size: 12px;
+  border-top: solid 1px #ddd;
+  padding: 6px 30px 6px 25px; 
 }
 
 
