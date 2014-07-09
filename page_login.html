@@ -34,7 +34,9 @@
 
 <body>
 <!--=== Style Switcher ===-->    
+<!--
 <i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+-->
 <div class="style-switcher animated fadeInRight">
     <div class="theme-close"><i class="icon-close"></i></div>
     <div class="theme-heading">Theme Colors</div>
@@ -68,22 +70,24 @@
             <div class="container">
                 <!-- Topbar Navigation -->
                 <ul class="loginbar pull-right">
+					<!--
                     <li>
                         <i class="fa fa-globe"></i>
                         <a>Languages</a>
                         <ul class="lenguages">
                             <li class="active">
-                                <a href="#">English <i class="fa fa-check"></i></a> 
+                                <a href="javascript:void(0);">English <i class="fa fa-check"></i></a> 
                             </li>
-                            <li><a href="#">Spanish</a></li>
-                            <li><a href="#">Russian</a></li>
-                            <li><a href="#">German</a></li>
+                            <li><a href="javascript:void(0);">Spanish</a></li>
+                            <li><a href="javascript:void(0);">Russian</a></li>
+                            <li><a href="javascript:void(0);">German</a></li>
                         </ul>
                     </li>
                     <li class="topbar-devider"></li>   
                     <li><a href="page_faq.html">Help</a></li>  
-                    <li class="topbar-devider"></li>   
-                    <li><a href="page_login.html">Login</a></li>   
+                    <li class="topbar-devider"></li>
+					-->
+                    <li><a href="javascript:void(0);">Login</a></li>   
                 </ul>
                 <!-- End Topbar Navigation -->
             </div>
@@ -108,7 +112,8 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav">
                         <!-- Home -->
-                        <li class="dropdown">
+						<!--
+                        <li class="dropdown active">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Home
                             </a>
@@ -123,19 +128,20 @@
                                 <li><a href="page_home7.html">Option 8: Home Portfolio</a></li>
                                 <li><a href="page_home8.html">Option 9: Home Discover</a></li>
                                 <li><a href="page_jobs.html">Option 10: Home Jobs</a></li>
-                                <li><a href="page_home9.html">Option 11: Home Boxed</a></li>
-                                <li><a href="page_home11.html">Option 12: Home Boxed Image</a></li>
+                                <li><a href="page_home9.html">Option 11: Home Boxed Pattern</a></li>
+                                <li class="active"><a href="page_home11.html">Option 12: Home Boxed Image</a></li>
                                 <li><a href="page_home10.html">Option 13: Home Fixed Menu</a></li>
                             </ul>
                         </li>
+						-->
                         <!-- End Home -->
 
                         <!-- Pages -->                        
-                        <li class="dropdown active">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Pages
+                        <li class="dropdown">
+                            <a href="page_about_me.html" class="dropdown-toggle">
+                                公司簡介
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul  style="display:none" class="dropdown-menu">
                                 <!-- About Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">About Pages</a>
@@ -269,11 +275,11 @@
                                 <!-- End Gallery Page -->
 
                                 <!-- Login and Registration -->
-                                <li class="active dropdown-submenu">
+                                <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Login and Registration</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="page_registration.html">Registration Page</a></li>
-                                        <li class="active"><a href="page_login.html">Login Page</a></li>
+                                        <li><a href="page_login.html">Login Page</a></li>
                                         <li><a href="page_registration1.html">Registration Option</a></li>
                                         <li><a href="page_login1.html">Login Option</a></li>
                                     </ul>                                
@@ -314,162 +320,27 @@
                                 <!-- Terms Of Service -->
                                 <li><a href="page_terms.html">Terms Of Service</a></li>
                                 <!-- End Terms Of Service -->
+								
+								-->
                             </ul>
                         </li>
                         <!-- End Pages -->
 
                         <!-- Features -->
                         <li class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Features
+                            <a href="product_category.html" class="dropdown-toggle">
+                                產品分類
                             </a>
                             <ul class="dropdown-menu">
-                                <!-- Typography -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Typography</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_typo_general.html"><i class="fa fa-sort-alpha-asc"></i> General Typography</a></li>
-                                        <li><a href="feature_typo_headings.html"><i class="fa fa-magic"></i> Headings Options</a></li>
-                                        <li><a href="feature_typo_dividers.html"><i class="fa fa-ellipsis-h"></i> Deviders</a></li>
-                                        <li><a href="feature_typo_blockquote.html"><i class="fa fa-quote-left"></i> Blockquote Blocks</a></li>
-                                        <li><a href="feature_typo_boxshadows.html"><i class="fa fa-asterisk"></i> Box Shadows</a></li>
-                                        <li><a href="feature_typo_testimonials.html"><i class="fa fa-comments"></i> Testimonials</a></li>
-                                        <li><a href="feature_typo_tagline_boxes.html"><i class="fa fa-tasks"></i> Tagline Boxes</a></li>
-                                        <li><a href="feature_typo_grid.html"><i class="fa fa-align-justify"></i> Grid Layouts</a></li>
-                                    </ul>                                
+                                <li>
+                                    <a href="product.html">PH</a>                              
+                                </li> 
+                                <li>
+                                    <a href="javascript:void(0);">ORP</a>                         
                                 </li>
-                                <!-- End Typography -->
-
-                                <!-- Buttons -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Buttons UI</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_btn_general.html"><i class="fa fa-flask"></i> General Buttons</a></li>
-                                        <li><a href="feature_btn_brands.html"><i class="fa fa-html5"></i> Brand &amp; Social Buttons</a></li>
-                                        <li><a href="feature_btn_effects.html"><i class="fa fa-bolt"></i> Loading &amp; Hover Effects</a></li>
-                                    </ul>                                
+                                <li>
+                                    <a href="javascript:void(0);">TDS</a>                              
                                 </li>
-                                <!-- End Buttons -->
-
-                                <!-- Icons -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Icons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_icon_general.html"><i class="fa fa-chevron-circle-right"></i> General Icons</a></li>
-                                        <li><a href="feature_icon_fa.html"><i class="fa fa-chevron-circle-right"></i> Font Awesome Icons</a></li>
-                                        <li><a href="feature_icon_line.html"><i class="fa fa-chevron-circle-right"></i>  Icons</a></li>
-                                        <li><a href="feature_icon_glyph.html"><i class="fa fa-chevron-circle-right"></i> Glyphicons Icons</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Icons -->
-
-                                <!-- Content Boxes -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Content Boxes</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_box_general.html"><i class="fa fa-cog"></i> General Content Boxes</a></li>
-                                        <li><a href="feature_box_colored.html"><i class="fa fa-align-center"></i> Colored Boxes</a></li>
-                                        <li><a href="feature_box_funny.html"><i class="fa fa-bars"></i> Funny Boxes</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Content Boxes -->
-
-                                <!-- Thumbnails -->
-                                <li><a href="feature_thumbails.html">Thumbnails</a></li>
-                                <!-- End Thumbnails -->
-
-                                <!-- Components -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Components</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_compo_messages.html"><i class="fa fa-comment"></i> Alerts &amp; Messages</a></li>
-                                        <li><a href="feature_compo_labels.html"><i class="fa fa-tags"></i> Labels &amp; Badges</a></li>
-                                        <li><a href="feature_compo_progress_bars.html"><i class="fa fa-align-left"></i> Progress Bars</a></li>
-                                        <li><a href="feature_compo_media.html"><i class="fa fa-volume-down"></i> Audio/Videos &amp; Images</a></li>
-                                        <li><a href="feature_compo_panels.html"><i class="fa fa-columns"></i> Panels</a></li>
-                                        <li><a href="feature_compo_pagination.html"><i class="fa fa-arrows-h"></i> Paginations</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Components -->
-
-                                <!-- Accordion and Tabs -->
-                                <li><a href="feature_accordion_and_tabs.html">Accordion &amp; Tabs</a></li>
-                                <!-- End Accordion and Tabs -->
-
-                                <!-- Timeline -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Timeline</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_timeline1.html"><i class="fa fa-dot-circle-o"></i> Timeline Option 1</a></li>
-                                        <li><a href="feature_timeline2.html"><i class="fa fa-dot-circle-o"></i> Timeline Option 2</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Timeline -->
-
-                                <!-- Carousel -->
-                                <li><a href="feature_carousels.html">Carousel Examples</a></li>
-                                <!-- End Carousel -->
-
-                                <!-- Forms -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Forms</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_form_general.html"><i class="fa fa-bars"></i> Common Bootstrap Forms</a></li>
-                                        <li><a href="feature_form_general1.html"><i class="fa fa-bars"></i> General Unify Forms</a></li>
-                                        <li><a href="feature_form_advanced.html"><i class="fa fa-bars"></i> Advanced Forms</a></li>
-                                        <li><a href="feature_form_layouts.html"><i class="fa fa-bars"></i> Form Layouts</a></li>
-                                        <li><a href="feature_form_layouts_advanced.html"><i class="fa fa-bars"></i> Advanced Layout Forms</a></li>
-                                        <li><a href="feature_form_states.html"><i class="fa fa-bars"></i> Form States</a></li>
-                                        <li><a href="feature_form_sliders.html"><i class="fa fa-bars"></i> Form Sliders</a></li>
-                                        <li><a href="feature_form_modals.html"><i class="fa fa-bars"></i> Modals</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Forms -->
-
-                                <!-- Tables -->
-                                <li><a href="feature_table_general.html">Tables</a></li>
-                                <!-- End Tables -->
-
-                                <!-- Maps -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Maps</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="feature_maps_google.html"><i class="fa fa-map-marker"></i> Google Maps</a></li>
-                                        <li><a href="feature_maps_vector.html"><i class="fa fa-align-center"></i> Vector Maps</a></li>
-                                    </ul>                                
-                                </li>
-                                <!-- End Maps -->
-
-                                <!-- Charts and Countdowns -->
-                                <li><a href="feature_compo_charts.html">Charts &amp; Countdowns</a></li>
-                                <!-- End Charts and Countdowns -->
-
-                                <!-- Sub Level Menu -->
-                                <li class="dropdown-submenu">
-                                    <a href="javascript:void(0);">Sub Level 1</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="index.hmtl">Sub Level 2</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:void(0);">Sub Level 2</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                            </ul>                                
-                                        </li>
-                                        <li><a href="index.hmtl">Sub Level 2</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="javascript:void(0);">Sub Level 2</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                                <li><a href="index.hmtl">Sub Level 3</a></li>
-                                            </ul>                                
-                                        </li>
-                                    </ul>                                
-                                </li>                            
-                                <!-- End Sub Level Menu -->
                             </ul>
                         </li>
                         <!-- End Features -->
@@ -477,15 +348,18 @@
                         <!-- Portfolio -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Portfolio
+                                產品應用
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="portfolio_text_blocks.html">Portfolio Text Blocks</a></li>
-                                <li><a href="portfolio_2_column.html">Portfolio 2 Columns</a></li>
-                                <li><a href="portfolio_3_column.html">Portfolio 3 Columns</a></li>
-                                <li><a href="portfolio_4_column.html">Portfolio 4 Columns</a></li>
-                                <li><a href="portfolio_item.html">Portfolio Item Option 1</a></li>
-                                <li><a href="portfolio_item1.html">Portfolio Item Option 2</a></li>
+                                <li>
+                                    <a href="javascript:void(0);">應用A</a>                              
+                                </li> 
+                                <li>
+                                    <a href="javascript:void(0);">應用B</a>                         
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">應用C</a>                              
+                                </li>
                             </ul>
                         </li>
                         <!-- Ens Portfolio -->
@@ -493,36 +367,53 @@
                         <!-- Blog -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Blog
+                                最新消息
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog_page.html">Blog Page</a></li>
-                                <li><a href="blog_large.html">Blog Large</a></li>
-                                <li><a href="blog_medium.html">Blog Medium</a></li>
-                                <li><a href="blog_full_width.html">Blog Full Width</a></li>
-                                <li><a href="blog_timeline.html">Blog Timeline</a></li>
-                                <li><a href="blog_right_sidebar.html">Blog Right Sidebar</a></li>
-                                <li><a href="blog_left_sidebar.html">Blog Left Sidebar</a></li>
-                                <li><a href="blog_item_option1.html">Blog Item Option 1</a></li>
-                                <li><a href="blog_item_option2.html">Blog Item Option 2</a></li>
+                                <li>
+                                    <a href="javascript:void(0);">消息A</a>                              
+                                </li> 
+                                <li>
+                                    <a href="javascript:void(0);">消息B</a>                         
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">消息C</a>                              
+                                </li>
                             </ul>
                         </li>
                         <!-- End Blog -->
+						
+						<li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                會員中心
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="javascript:void(0);">會員註冊</a>                              
+                                </li> 
+                                <li>
+                                    <a href="javascript:void(0);">個人資料</a>                         
+                                </li>
+                            </ul>
+                        </li>
 
                         <!-- Contacts -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Contacts
+                                線上服務
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="page_contact1.html">Contacts Default</a></li>
-                                <li><a href="page_contact2.html">Contacts Option 1</a></li>
-                                <li><a href="page_contact3.html">Contacts Option 2</a></li>
+                                <li><a href="javascript:void(0);">聯絡我們</a></li>
+                                <li><a href="javascript:void(0);">線上詢價</a></li>
+								<li><a href="javascript:void(0);">線上影音</a></li>
                             </ul>
                         </li>                    
                         <!-- End Contacts -->
+						
+						       
 
                         <!-- Search Block -->
+						<!--
                         <li>
                             <i class="search fa fa-search search-btn"></i>
                             <div class="search-open">
@@ -534,6 +425,7 @@
                                 </div>
                             </div>    
                         </li>
+						-->
                         <!-- End Search Block -->
                     </ul>
                 </div><!--/navbar-collapse-->
@@ -546,11 +438,15 @@
     <!--=== Breadcrumbs ===-->
     <div class="breadcrumbs">
         <div class="container">
-            <h1 class="pull-left">Login</h1>
+            <!--
+			<h1 class="pull-left">Login</h1>
+			-->
             <ul class="pull-right breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Pages</a></li>
-                <li class="active">Login</li>
+                <li><a href="index.html">首頁</a></li>
+                
+				<!--<li><a href="">Pages</a></li>-->
+               
+			   <li class="active">登入</li>
             </ul>
         </div><!--/container-->
     </div><!--/breadcrumbs-->
@@ -562,7 +458,7 @@
             <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
                 <form class="reg-page">
                     <div class="reg-header">            
-                        <h2>Login to your account</h2>
+                        <h2>登入帳戶</h2>
                     </div>
 
                     <div class="input-group margin-bottom-20">
@@ -576,17 +472,17 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <label class="checkbox"><input type="checkbox"> Stay signed in</label>                        
+                            <label class="checkbox"><input type="checkbox"> 保持登入狀態</label>                        
                         </div>
                         <div class="col-md-6">
-                            <button class="btn-u pull-right" type="submit">Login</button>                        
+                            <button class="btn-u pull-right" type="submit">登入</button>                        
                         </div>
                     </div>
 
                     <hr>
 
-                    <h4>Forget your Password ?</h4>
-                    <p>no worries, <a class="color-green" href="#">click here</a> to reset your password.</p>
+                    <h4>忘記密碼?</h4>
+                    <p><a class="color-green" href="#">click here</a> 重設密碼.</p>
                 </form>            
             </div>
         </div><!--/row-->
@@ -598,80 +494,66 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 md-margin-bottom-40">
-                    <!-- About -->
-                    <div class="headline"><h2>About</h2></div>  
-                    <p class="margin-bottom-25 md-margin-bottom-40">Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals.</p>    
-                    <!-- End About -->
-
-                    <!-- Monthly Newsletter -->
-                    <div class="headline"><h2>Monthly Newsletter</h2></div> 
-                    <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-                    <form class="footer-subsribe">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Email Address">                            
-                            <span class="input-group-btn">
-                                <button class="btn-u" type="button">Subscribe</button>
-                            </span>
-                        </div>                  
-                    </form>                         
-                    <!-- End Monthly Newsletter -->
-                </div><!--/col-md-4-->  
-                
-                <div class="col-md-4 md-margin-bottom-40">
-                    <!-- Recent Blogs -->
                     <div class="posts">
-                        <div class="headline"><h2>Recent Blog Entries</h2></div>
+                        <div class="headline"><h2>熱門產品</h2></div>
                         <dl class="dl-horizontal">
-                            <dt><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                            <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
                             <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
+                                <p><a href="javascript:void(0);">酸鹼度防水測試筆</a></p>
+								<p>可更換式電極，達到持續使用及環保目的。</p>								
                             </dd>
                         </dl>
                         <dl class="dl-horizontal">
-                        <dt><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
+                        <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
                             <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
+                                <p><a href="javascript:void(0);">實驗室桌上型酸鹼度計(高階款)</a></p> 
+								<p>首創二合一功能，自動攪拌與數值測試一機完成。</p>
+                            </dd>
+                        </dl>
+                    </div>               
+                </div>
+	  
+                <div class="col-md-4 md-margin-bottom-40">
+                    <div class="posts">
+                        <div class="headline"><h2>產品應用</h2></div>
+                        <dl class="dl-horizontal">
+                            <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                            <dd>
+                                <p><a href="javascript:void(0);">應用相關說明(一)</a></p> 
                             </dd>
                         </dl>
                         <dl class="dl-horizontal">
-                        <dt><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" /></a></dt>
+                        <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
                             <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
+                                <p><a href="javascript:void(0);">應用相關說明(二)</a></p> 
                             </dd>
                         </dl>
-                    </div>
-                    <!-- End Recent Blogs -->                    
-                </div><!--/col-md-4-->
+                    </div>               
+                </div>
 
-                <div class="col-md-4">
-                    <!-- Contact Us -->
-                    <div class="headline"><h2>Contact Us</h2></div> 
-                    <address class="md-margin-bottom-40">
-                        25, Lorem Lis Street, Orange <br />
-                        California, US <br />
-                        Phone: 800 123 3456 <br />
-                        Fax: 800 123 3456 <br />
-                        Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
-                    </address>
-                    <!-- End Contact Us -->
-
-                    <!-- Social Links -->
-                    <div class="headline"><h2>Stay Connected</h2></div> 
-                    <ul class="social-icons">
-                        <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
-                        <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
-                        <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
-                        <li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>
-                        <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
-                        <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
-                        <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
-                    </ul>
-                    <!-- End Social Links -->
-                </div><!--/col-md-4-->
+                <div class="col-md-4 md-margin-bottom-40">
+                    <div class="posts">
+                        <div class="headline"><h2>最新消息</h2></div>
+                        <dl class="dl-horizontal">
+                            <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                            <dd>
+                                <p><a href="javascript:void(0);">新聞(一)</a></p> 
+								<p>CISILE 2013  <第11屆中國國際科學儀器及實驗室裝備展覽會> </p>
+                            </dd>
+                        </dl>
+                        <dl class="dl-horizontal">
+                        <dt><a href="javascript:void(0);"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
+                            <dd>
+                                <p><a href="javascript:void(0);">新聞(二)</a></p>
+								<p>CISILE 2013  <第11屆中國國際科學儀器及實驗室裝備展覽會></p>
+                            </dd>
+                        </dl>
+                    </div>               
+                </div>
+				
             </div>
         </div> 
-    </div><!--/footer-->
-    <!--=== End Footer ===-->
+    </div>
 
     <!--=== Copyright ===-->
     <div class="copyright">
@@ -679,8 +561,8 @@
             <div class="row">
                 <div class="col-md-6">                     
                     <p>
-                        2014 &copy; Unify. ALL Rights Reserved. 
-                        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                        2014 &copy; Enter-System. ALL Rights Reserved. 
+                        <a href="javascript:void(0);">Privacy Policy</a> | <a href="javascript:void(0);">Terms of Service</a>
                     </p>
                 </div>
                 <div class="col-md-6">  
